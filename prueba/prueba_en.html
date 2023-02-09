@@ -14,10 +14,6 @@
 <!-- body is only made black for the loading phase so that the splash screen is black -->
 <body style="background-color:black;">
 
-<button onclick="myFunction()">Click me</button>
-
-<p id="demo"></p>
-
 <script type="text/javascript">
 
   window.phet = window.phet || {};
@@ -145,9 +141,6 @@
   // This is done in load-unbuilt-strings.js
   window.phet.chipper.loadModules = () => loadURL( '../chipper/dist/js/prueba/js/prueba-main.js', 'module' );
 
-  function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-  }
 </script>
 </body>
 </html>
